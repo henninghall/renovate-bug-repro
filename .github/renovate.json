@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "extends": ["config:base"],
+  "timezone": "Europe/Stockholm",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "internalChecksFilter": "strict",
+      "stabilityDays": 60
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "renovate-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "none",
+  "dependencies": {
+    "react-native-circular-progress": "1.3.7"
+  }
+}
